@@ -1,0 +1,2 @@
+2022-09-14T19:18:22+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 3512440 bytes) in /home/bmaksimovic/public_html/projekat/wp-admin/includes/class-wp-filesystem-direct.php on line 39
+

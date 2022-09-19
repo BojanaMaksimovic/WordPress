@@ -1,0 +1,35 @@
+2022-09-15T00:12:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function promeni_text(), 1 passed in /home/bmaksimovic/public_html/projekat/wp-includes/class-wp-hook.php on line 307 and exactly 3 expected in /home/bmaksimovic/public_html/projekat/wp-content/themes/Divi-child/functions.php:70
+Stack trace:
+#0 /home/bmaksimovic/public_html/projekat/wp-includes/class-wp-hook.php(307): promeni_text('')
+#1 /home/bmaksimovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /home/bmaksimovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bmaksimovic/public_html/projekat/wp-content/plugins/woocommerce/templates/cart/cart-totals.php(23): do_action('woocommerce_bef...')
+#4 /home/bmaksimovic/public_html/projekat/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bmaksimov...')
+#5 /home/bmaksimovic/public_html/projekat/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2135): wc_get_template('cart/cart-total...')
+#6 /home/bmaksimovic/public_html/projekat/wp-includes/class-wp-hook.php(307): woocommerce_cart_totals('')
+#7 /home/bmaksimovic/public_html/projekat/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 /home/bmaksimovic/public_html/projekat/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#9 /home/bmaksimovic/public_html/projekat/wp-content/plugins/woocommerce/templates/cart/cart.php(172): do_action('woocommerce_car...')
+#10 /home/bmaksimovic/public_html/projekat/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bmaksimov...')
+#11 /home/bmaksimovic/public_html/projekat/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#12 /home/bmaksimovic/public_html/projekat/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#13 /home/bmaksimovic/public_html/projekat/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#14 /home/bmaksimovic/public_html/projekat/wp-includes/shortcodes.php(356): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#15 [internal function]: do_shortcode_tag(Array)
+#16 /home/bmaksimovic/public_html/projekat/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#17 /home/bmaksimovic/public_html/projekat/wp-includes/class-wp-hook.php(307): do_shortcode('[woocommerce_ca...')
+#18 /home/bmaksimovic/public_html/projekat/wp-includes/plugin.php(191): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#19 /home/bmaksimovic/public_html/projekat/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#20 /home/bmaksimovic/public_html/projekat/wp-content/themes/Divi/page.php(46): the_content()
+#21 /home/bmaksimovic/public_html/projekat/wp-includes/template-loader.php(106): include('/home/bmaksimov...')
+#22 /home/bmaksimovic/public_html/projekat/wp-blog-header.php(19): require_once('/home/bmaksimov...')
+#23 /home/bmaksimovic/public_html/projekat/index.php(17): require('/home/bmaksimov...')
+#24 {main}
+  thrown in /home/bmaksimovic/public_html/projekat/wp-content/themes/Divi-child/functions.php on line 70
+
+2022-09-15T17:15:09+00:00 CRITICAL syntax error, unexpected identifier "porudžbinu_url", expecting ")" in /home/bmaksimovic/public_html/projekat/wp-content/themes/Divi-child/functions.php on line 86
+
+2022-09-15T17:16:19+00:00 CRITICAL syntax error, unexpected identifier "porudžbinu_url", expecting ")" in /home/bmaksimovic/public_html/projekat/wp-content/themes/Divi-child/functions.php on line 86
+
+2022-09-15T17:16:32+00:00 CRITICAL syntax error, unexpected identifier "porudžbinu_url", expecting ")" in /home/bmaksimovic/public_html/projekat/wp-content/themes/Divi-child/functions.php on line 86
+

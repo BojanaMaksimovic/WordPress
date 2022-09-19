@@ -1,0 +1,8 @@
+2022-09-17T10:12:23+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4052704 bytes) in /home/bmaksimovic/public_html/projekat/wp-admin/includes/class-wp-filesystem-direct.php on line 39
+
+2022-09-17T22:31:19+00:00 CRITICAL Cannot use $this as parameter in /home/bmaksimovic/public_html/projekat/wp-content/themes/Divi-child/functions.php on line 120
+
+2022-09-17T22:31:45+00:00 CRITICAL Cannot use $this as parameter in /home/bmaksimovic/public_html/projekat/wp-content/themes/Divi-child/functions.php on line 120
+
+2022-09-17T22:31:55+00:00 CRITICAL Cannot use $this as parameter in /home/bmaksimovic/public_html/projekat/wp-content/themes/Divi-child/functions.php on line 120
+
